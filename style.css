@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: sans-serif;
+    font-family: "Noto Sans", sans-serif;
 }
 li {
     list-style-type: none;
@@ -102,3 +102,21 @@ li {
     justify-content: center;
     align-items: center;
 }
+
+.quote-space {
+    background-color: #E5E7EB;
+    padding: 2% 20%;
+    color: #1F2937;
+ }
+
+ .quote {
+    font-weight: lighter;
+    font-style: italic;
+    font-size: 36px;
+    
+ }
+
+ .quote-author {
+    text-align: end;
+    font-weight: bolder;
+ }
