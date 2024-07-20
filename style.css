@@ -109,14 +109,58 @@ li {
     color: #1F2937;
  }
 
- .quote {
+.quote {
     font-weight: lighter;
     font-style: italic;
     font-size: 36px;
     
  }
 
- .quote-author {
+.quote-author {
     text-align: end;
     font-weight: bolder;
  }
+ 
+.blue-button-section {
+    border-radius: 10px;
+    background-color: #3882F6;
+    margin: 6% 12%;
+    padding: 3% 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-blue-button {
+    color: #F9FAF8;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: wrap
+    justify-content: center;
+}
+
+.right-blue-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  button {
+    background-color: #3882F6;
+    border-color: #F9FAF8;
+    color: #F9FAF8;
+    border-style: solid;
+    padding: 14px 30px;
+    border-radius: 10px;
+    font-weight: bolder;
+  }
+}
+
+.footer {
+  margin-top: auto 0;
+  color: #F9FAF8;
+  padding: 20px 20px;
+  background-color: #1F2937;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
